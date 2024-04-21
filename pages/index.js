@@ -7,13 +7,11 @@ export default function Home() {
     <div className={styles.container}>
       <header className={styles.header}>
         <Link href="/">
-          <a>
-            <img src="https://i.postimg.cc/jn5qj5FF/Glass-Go.png" alt="GlassGo Logo" className={styles.logo} />
-          </a>
+          <img src="https://i.postimg.cc/jn5qj5FF/Glass-Go.png" alt="GlassGo Logo" className={styles.logo} />
         </Link>
         <nav>
-          <Link href="/about"><a>About Us</a></Link>
-          <Link href="/contact"><a>Contact</a></Link>
+          <Link href="/about">About Us</Link>
+          <Link href="/contact">Contact</Link>
         </nav>
       </header>
 
@@ -30,7 +28,7 @@ export default function Home() {
             <p>Includes 10 GlassGo bags</p>
             <p>Twice a week pickup</p>
             <Link href="/subscribe">
-              <a className={styles.subscribeButton}>Subscribe</a>
+              <button className={styles.subscribeButton}>Subscribe</button>
             </Link>
           </div>
 
@@ -38,7 +36,9 @@ export default function Home() {
             <h2>Premium Plan - $6.99</h2>
             <p>Includes 12 GlassGo bags</p>
             <p>Three times a week pickup</p>
-            <Link href="/subscribe" className={styles.subscribeButton}>Subscribe</Link>
+            <Link href="/subscribe">
+              <button className={styles.subscribeButton}>Subscribe</button>
+            </Link>
           </div>
         </div>
       </main>
