@@ -9,17 +9,14 @@ export default function Home() {
         <Link href="/">
           <img src="https://i.postimg.cc/jn5qj5FF/Glass-Go.png" alt="GlassGo Logo" className={styles.logo} />
         </Link>
-        <nav>
-          <Link href="/about">About Us</Link>
-          <Link href="/contact">Contact</Link>
-        </nav>
+
       </header>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Welcome to GlassGo</h1>
+        <h1 className={styles.title}>GlassGo.</h1>
 
         <p className={styles.description}>
-          Choose your sustainable living plan.
+          Choose your pick up plan.
         </p>
 
         <div className={styles.grid}>
@@ -39,12 +36,14 @@ export default function Home() {
             <Link href="/subscribe">
               <button className={styles.subscribeButton}>Subscribe</button>
             </Link>
+            <nav>
+            </nav>
           </div>
         </div>
       </main>
 
       <footer className={styles.footer}>
-        <p>© 2024 GlassGo. All rights reserved.</p>
+        <p>© 2024 GlassGo.</p>
       </footer>
     </div>
   );

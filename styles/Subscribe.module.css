@@ -1,87 +1,92 @@
 /* Subscribe.module.css */
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 80vh;
-    padding: 2rem;
-    background-color: #f7f7f7;
-  }
-  
-  .title {
-    font-size: 3rem;
-    color: #333;
-    text-transform: uppercase;
-    margin-bottom: 1rem;
-  }
-  
-  .description {
-    max-width: 640px;
-    text-align: center;
-    margin-bottom: 2rem;
-    color: #555;
-    font-size: 1.25rem;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 2rem;
+  background-color: #fafafa;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #333;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  font-weight: 300;
+}
+
+.description {
+  max-width: 600px;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #666;
+  font-size: 1.25rem;
+  line-height: 1.6;
+}
+
+.subscriptionOptions {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.card {
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px 0 rgba(0, 0, 0, 0.05);
+  width: 300px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  transition: box-shadow 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+.price {
+  font-size: 2rem;
+  color: #10b981; /* Keeping the emerald color for vibrant contrast */
+  font-weight: bold;
+}
+
+.features {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.feature {
+  margin-bottom: 0.5rem;
+  color: #555;
+}
+
+.subscribeButton {
+  background-color: #10b981; /* Emerald color */
+  color: white;
+  border: none;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.subscribeButton:hover {
+  background-color: #059669; /* Darker emerald */
+  transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
   .subscriptionOptions {
-    display: flex;
-    gap: 2rem;
-    margin-bottom: 2rem;
-  }
-  
-  .card {
-    background: white;
-    border-radius: 16px;
-    box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.1);
-    width: 300px;
-    padding: 2rem;
-    display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-    transition: transform 0.2s;
   }
-  
-  .card:hover {
-    transform: translateY(-5px);
-  }
-  
-  .price {
-    font-size: 2rem;
-    color: #10b981; /* Tailwind CSS "emerald" color */
-  }
-  
-  .features {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-  }
-  
-  .feature {
-    margin-bottom: 0.5rem;
-  }
-  
-  .subscribeButton {
-    background-color: #10b981; /* Tailwind CSS "emerald" color */
-    color: white;
-    border: none;
-    padding: 0.75rem 2rem;
-    font-size: 1rem;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background-color 0.2s;
-  }
-  
-  .subscribeButton:hover {
-    background-color: #059669; /* Tailwind CSS "emerald" darker color */
-  }
-  
-  /* Responsive Design */
-  @media (max-width: 768px) {
-    .subscriptionOptions {
-      flex-direction: column;
-    }
-  }
-  
+}
