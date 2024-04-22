@@ -1,7 +1,7 @@
 [build]
   command = "npm run build"
-  publish = ".next" # This points to the directory where Next.js outputs your build files after running `npm run build`.
-  functions = "netlify/functions" # Ensure this path matches where your Netlify functions are stored.
+  publish = ".next" # Adjust this to match your build output settings.
+  functions = "netlify/functions" # Points to your functions directory.
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
