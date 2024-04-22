@@ -1,10 +1,12 @@
 import React from 'react';
-import styles from '../styles/Subscribe.module.css'; 
+import styles from '../styles/Subscribe.module.css';
+
 const Subscribe = () => {
   return (
     <div className={styles.subscribeContainer}>
       <h1>Choose Your Plan</h1>
       <div className={styles.plan}>
+        <img src="/Bag.svg" alt="Bag" className={styles.planImage} /> {/* Added image here */}
         <h2>Monthly Plan - $4.99</h2>
         <p>Get access to our service with a convenient monthly plan.</p>
         <button
@@ -15,6 +17,7 @@ const Subscribe = () => {
         </button>
       </div>
       <div className={styles.plan}>
+        <img src="/Bag.svg" alt="Bag" className={styles.planImage} /> {/* And here */}
         <h2>Premium Plan - $6.99</h2>
         <p>Enjoy premium features with our best value plan.</p>
         <button

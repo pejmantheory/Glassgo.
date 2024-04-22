@@ -1,18 +1,12 @@
-/* styles/Home.module.css */
-.container {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  background: var(--background-color);
-  /* Ensuring background consistency */
+/* Additional styles for the logo */
+.logo {
+  max-width: 200px; /* Adjust the value to the size you want */
+  height: auto; /* This ensures that the aspect ratio is maintained */
 }
 
+
 .header {
-  background-color: var(--main-color);
-  padding: 1rem;
-  color: white;
   text-align: center;
-  /* Center aligns header elements */
 }
 
 .main {
