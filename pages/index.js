@@ -11,31 +11,31 @@ export default function Home() {
       </header>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Welcome to GlassGo.</h1>
+        <h1 className={styles.title}>GlassGo.</h1>
 
         <p className={styles.description}>
-          Choose your pick up plan and help us keep the planet clean.
+          Choose your glass bottle pick up plan and help us keep the planet clean.
         </p>
 
         <section className={styles.plans}>
-          <article className={styles.card}>
+        <Link href="/subscribe" passHref>
+          <article className={styles.card} role="button" tabIndex="0">
             <h2>Monthly Plan - $4.99</h2>
             <p>Includes 10 GlassGo. bags</p>
             <p>Twice a week pickup</p>
-            <Link href="/subscribe">
-              <button className={styles.button}>Subscribe</button>
-            </Link>
+            <div className={styles.button}>Subscribe</div>
           </article>
+        </Link>
 
-          <article className={styles.card}>
+        <Link href="/subscribe" passHref>
+          <article className={styles.card} role="button" tabIndex="0">
             <h2>Premium Plan - $6.99</h2>
             <p>Includes 12 GlassGo. bags</p>
             <p>Three times a week pickup</p>
-            <Link href="/subscribe">
-              <button className={styles.button}>Subscribe</button>
-            </Link>
+            <div className={styles.button}>Subscribe</div>
           </article>
-        </section>
+        </Link>
+      </section>
       </main>
 
       <footer className={styles.footer}>

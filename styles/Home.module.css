@@ -1,7 +1,7 @@
 /* Additional styles for the logo */
 .logo {
   max-width: 200px; /* Adjust the value to the size you want */
-  height: auto; /* This ensures that the aspect ratio is maintained */
+  height: 120px; /* This ensures that the aspect ratio is maintained */
 }
 
 
@@ -15,22 +15,23 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 20px;
-  /* Added padding for spacing */
+  padding: 0px;
+
 }
 
+
 .title {
-  font-size: 2.5rem;
-  /* Ensures large readable text */
-  margin-bottom: 0.5rem;
+  font-size: 2.1rem;
+  margin-bottom: 0.0rem;
   color: var(--text-color);
-  /* Text color for better contrast */
+  text-align: center; /* Centers the text */
 }
+
 
 .description {
   margin-bottom: 2rem;
   font-size: 1.2rem;
-  /* Increases readability */
+  text-align: center; /* Centers the text */
 }
 
 .grid {
@@ -48,14 +49,12 @@
   margin: 1rem;
   padding: 2rem;
   text-align: left;
-  color: inherit;
+  color: #000; /* Set text color to black */
   text-decoration: none;
   border: 2px solid var(--main-color);
   border-radius: 10px;
-  transition: all 0.3s ease;
-  /* Smooth transition for all properties */
-  background-color: #fff;
-  /* Background for the card */
+  transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition for text color and transform properties */
+  background-color: #fff; /* Keep background color white (or any other color as needed) */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   /* Subtle shadow for depth */
 }
