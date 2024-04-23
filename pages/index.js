@@ -39,7 +39,7 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-        <p>©2024 GlassGo. All rights reserved.</p>
+        <p>©2024 GlassGo.</p>
       </footer>
     </div>
   );
