@@ -1,63 +1,84 @@
 /* styles/Header.module.css */
 
 .header {
-    background: #fdfdfd; 
-    padding: 0px 0; 
-    background-color: #f4f4f4;
-    text-align: center; /* Center the content horizontally */
-    position: relative; /* Set position for potential absolute elements inside */
-    display: flex; /* Use flexbox for centering and positioning */
-    justify-content: center; /* Center content horizontally */
-    align-items: center; /* Center content vertically */
-  }
-  .homepageHeader {
-    background-color: #ffffff; /* White background for homepage header */
-  }
-  
-  .logo {
-    cursor: pointer;
-    height: 89px; /* Adjust the logo size as needed */
-    transition: opacity 0.3s ease; /* Subtle fade effect for interactive states */
-  }
-  
-  .logo:hover, 
-  .logo:focus {
-    opacity: 0.9; /* Slightly fade the logo on hover/focus for feedback */
-  }
-  
-  
-  .logo:hover, 
-  .logo:focus {
-    transform: scale(1.05); /* Slightly increase size on hover/focus for feedback */
-  }
-  
-  /* If you plan to include navigation links */
-  .nav {
-    position: absolute;
-    right: 20px; /* Position to the right */
-    top: 50%;
-    transform: translateY(-50%); /* Center vertically */
-  }
-  
+  background: #fdfdfd;
+  padding: 0px 0;
+  background-color: #f4f4f4;
+  text-align: center;
+  /* Center the content horizontally */
+  position: relative;
+  /* Set position for potential absolute elements inside */
+  display: flex;
+  /* Use flexbox for centering and positioning */
+  justify-content: center;
+  /* Center content horizontally */
+  align-items: center;
+  /* Center content vertically */
+}
+
+.homepageHeader {
+  background-color: #ffffff;
+  /* White background for homepage header */
+}
+
+.logo {
+  cursor: pointer;
+  height: 89px;
+  /* Adjust the logo size as needed */
+  transition: opacity 0.3s ease;
+  /* Subtle fade effect for interactive states */
+}
+
+.logo:hover,
+.logo:focus {
+  opacity: 0.9;
+  /* Slightly fade the logo on hover/focus for feedback */
+}
+
+
+.logo:hover,
+.logo:focus {
+  transform: scale(1.05);
+  /* Slightly increase size on hover/focus for feedback */
+}
+
+/* If you plan to include navigation links */
+.nav {
+  position: absolute;
+  right: 20px;
+  /* Position to the right */
+  top: 50%;
+  transform: translateY(-50%);
+  /* Center vertically */
+}
+
+.nav-link {
+  color: #333;
+  /* Darker text for contrast */
+  text-decoration: none;
+  /* No underlines for a clean look */
+  margin-left: 20px;
+  /* Space out navigation items */
+  font-weight: 500;
+  /* Slightly bolder font weight */
+  font-size: 1rem;
+  /* Standard size for legibility */
+  transition: color 0.3s ease;
+  /* Transition for hover state */
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #000;
+  /* Change color on hover/focus for feedback */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
   .nav-link {
-    color: #333; /* Darker text for contrast */
-    text-decoration: none; /* No underlines for a clean look */
-    margin-left: 20px; /* Space out navigation items */
-    font-weight: 500; /* Slightly bolder font weight */
-    font-size: 1rem; /* Standard size for legibility */
-    transition: color 0.3s ease; /* Transition for hover state */
+    margin-left: 15px;
+    /* Less margin on smaller screens */
+    font-size: 0.9rem;
+    /* Slightly smaller font size */
   }
-  
-  .nav-link:hover,
-  .nav-link:focus {
-    color: #000; /* Change color on hover/focus for feedback */
-  }
-  
-  /* Responsive adjustments for smaller screens */
-  @media (max-width: 768px) {
-    .nav-link {
-      margin-left: 15px; /* Less margin on smaller screens */
-      font-size: 0.9rem; /* Slightly smaller font size */
-    }
-  }
-  
+}
