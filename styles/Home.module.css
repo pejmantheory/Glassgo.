@@ -1,4 +1,4 @@
-
+/* General layout and main content styles */
 .main {
   flex: 1;
   display: flex;
@@ -11,7 +11,7 @@
 
 .title {
   font-size: 1.7rem;
-  margin-top: 0.6rem; 
+  margin-top: 0.6rem;
   margin-bottom: 0rem; /* Increased margin for visual separation from the description */
   color: var(--text-color);
   text-align: center;
@@ -32,6 +32,7 @@
   padding: 0 20px; /* Responsive horizontal padding */
 }
 
+/* Card styles */
 .card {
   margin: 1rem;
   padding: 2rem;
@@ -48,12 +49,32 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: var(--main-color);
-  border-color: var(--main-color);
-  transform: translateY(-5px);
+  color: #000;
+  border-color: #000;
+  transform: translateY(0px);
+  /* Show the SVG when the card is hovered, focused, or active */
+  .svgContainer {
+    display: block;
+  }
 }
 
-/* Add responsiveness to the .card and .subscribeButton */
+/* Container for the SVG */
+.svgContainer {
+  display: none; /* Hide SVG by default */
+  position: absolute; /* Position it over the card content if needed */
+  top: 50%; /* Center it vertically */
+  left: 50%; /* Center it horizontally */
+  transform: translate(-50%, -50%);
+  width: 60%; /* Relative size */
+  height: auto;
+}
+
+.svgContainer img {
+  width: 100%;
+  height: auto;
+}
+
+/* Responsive adjustments */
 @media (max-width: 768px) {
   .card {
     padding: 1.5rem; /* Smaller padding on mobile */
