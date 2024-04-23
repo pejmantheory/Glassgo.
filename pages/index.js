@@ -19,7 +19,7 @@ export default function Home() {
             <Link href="/subscribe" passHref>
               <article className={styles.card} role="button" tabIndex="0">
                 <h2>Monthly Plan - $4.99</h2>
-                <p>Includes 10 GlassGo. bags</p>
+                <p>Includes 8 GlassGo. bags</p>
                 <p>Twice a week pickup</p>
                 <div className={styles.button}>Subscribe</div>
               </article>
