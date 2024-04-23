@@ -10,15 +10,15 @@
 }
 
 .title {
-  font-size: 2.0rem;
-  margin-top: 0rem; 
+  font-size: 1.7rem;
+  margin-top: 0.6rem; 
   margin-bottom: 0rem; /* Increased margin for visual separation from the description */
   color: var(--text-color);
   text-align: center;
 }
 
 .description {
-  margin-bottom: 0rem; /* Consistent margin for spacing */
+  margin-bottom: 0.1rem; /* Consistent margin for spacing */
   font-size: 1.1rem;
   text-align: center;
   padding: 0 2rem;
@@ -53,20 +53,6 @@
   transform: translateY(-5px);
 }
 
-.footer {
-  width: 100%;
-  padding: 1rem 0;
-  border-top: 1px solid #eaeaea;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 0.9rem;
-  color: var(--text-color);
-  position: fixed; /* Fixed position to keep it at the bottom */
-  bottom: 0; /* Position it at the bottom */
-  left: 0; /* Align it left */
-}
-
 /* Add responsiveness to the .card and .subscribeButton */
 @media (max-width: 768px) {
   .card {
@@ -74,7 +60,7 @@
   }
 
   .card:last-child {
-    padding-bottom: 3rem; /* Extra padding to the last card to avoid footer overlap */
+    padding-bottom: 2rem; /* Extra padding to the last card to avoid footer overlap */
   }
 
   .subscribeButton {

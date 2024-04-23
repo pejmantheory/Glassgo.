@@ -18,7 +18,7 @@ export default function Home() {
           <section className={styles.plans}>
             <Link href="/subscribe" passHref>
               <article className={styles.card} role="button" tabIndex="0">
-                <h2>Monthly Plan - $4.99</h2>
+                <h2>Pick Twice Weekly - $5.99</h2>
                 <p>Includes 8 GlassGo. bags</p>
                 <p>Twice a week pickup</p>
                 <div className={styles.button}>Subscribe</div>
@@ -27,8 +27,8 @@ export default function Home() {
 
             <Link href="/subscribe" passHref>
               <article className={styles.card} role="button" tabIndex="0">
-                <h2>Premium Plan - $6.99</h2>
-                <p>Includes 12 GlassGo. bags</p>
+                <h2>Tri-Weekly Treasures - $7.99</h2>
+                <p>Become a premium to enjoy three time weekly pick ups, Includes 12 Monthly GlassGo. bags</p>
                 <p>Three times a week pickup</p>
                 <div className={styles.button}>Subscribe</div>
               </article>

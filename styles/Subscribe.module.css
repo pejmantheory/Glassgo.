@@ -29,27 +29,24 @@
 }
 
 .planImage {
-  height: 115px;
-  /* Scale down the image to fit mobile screens better */
+  height: 110px;
+  margin-bottom: -1px;
 }
 
 .price {
   font-size: 1.2rem;
-  /* Scale down for mobile */
-  color: #1a864f;
+  color: #040806;
   font-weight: 600;
   margin-bottom: 0rem;
   text-align: center;
 }
 
 .description {
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: #373737;
   line-height: 1.4;
-  /* Adjust line height for mobile readability */
   text-align: center;
-  padding: 0 2rem;
-  /* Add horizontal padding for better text readability */
+  padding: 0 1rem;
 }
 
 .subscribeButton {
