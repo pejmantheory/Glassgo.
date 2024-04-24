@@ -28,7 +28,7 @@ const Subscribe = () => {
           </p>
           <button
             className={styles.subscribeButton}
-            onClick={() => window.location.href = 'https://buy.stripe.com/9AQeYObaa1Hb8i4289'}
+            onClick={() => window.location.href = 'https://buy.stripe.com/6oEbMCfqqfy169WaEG'}
           >
             Pick-up My Glasses
           </button>
