@@ -1,12 +1,11 @@
-/* General layout and main content styles */
 .main {
   flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start; /* Start alignment to avoid overlapping with the footer */
+  justify-content: flex-start;
   padding: 8px;
-  padding-bottom: 5rem; /* Extra padding at the bottom to prevent overlap with the footer */
+  padding-bottom: 5rem;
 }
 
 .title {
@@ -19,9 +18,9 @@
 
 .description {
   margin-bottom: 0rem; /* Consistent margin for spacing */
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   text-align: center;
-  padding: 0 2rem;
+  padding: 0 4rem;
 }
 
 .grid {
@@ -32,7 +31,6 @@
   padding: 0 20px; /* Responsive horizontal padding */
 }
 
-/* Card styles */
 .card {
   margin: 1rem;
   padding: 2rem;
@@ -43,7 +41,7 @@
   border-radius: 10px;
   transition: color 0.3s ease, transform 0.3s ease;
   background-color: #fff;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
 
 .card:hover,
@@ -74,7 +72,7 @@
 }
 
 .price {
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   color: #333;
 }
 

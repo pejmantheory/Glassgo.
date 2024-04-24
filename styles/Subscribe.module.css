@@ -3,8 +3,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  padding-top: 0.8rem;
-  padding-bottom: 7rem;
+  padding-top: 0.6rem;
+  padding-bottom: 5rem;
   background-color: #f4f4f4;
 }
 
@@ -55,21 +55,21 @@
   background-color: #8FFF00;
   color: #020202;
   border: none;
-  padding: 0.5rem 1.5rem;
-  font-size: 1rem;
+  padding: 0.4rem 1.6rem;
+  font-size: 1.1rem;
   border-radius: 6px;
   cursor: pointer;
   transition: background-color 0.3s, transform 0.3s;
   width: 50%;
   max-width: 208px;
-  margin-top: 0.1rem;
+  margin-top: 0em;
   /* Reduced space above the button */
   align-self: center;
 }
 
 .subscribeButton:hover {
   background-color: #8FFF00;
-  transform: scale(1.05);
+  transform: scale(1.04);
   /* Slightly reduced transform scale for subtler effect */
 }
 
