@@ -11,7 +11,7 @@
 .title {
   font-size: 1.2rem;
   color: #333;
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.1rem;
   /* Reduced space below the title */
   font-weight: 470;
   letter-spacing: 1px;
@@ -25,13 +25,12 @@
   gap: -1rem;
   width: 100%;
   max-width: 300px;
-  padding: 1.2rem;
-  /* Reduced padding within each plan box */
+  padding: 1.5rem;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .planImage {
-  height: 110px;
+  height: 117px;
   margin-bottom: -11px;
 }
 

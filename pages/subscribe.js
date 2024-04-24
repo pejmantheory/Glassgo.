@@ -1,5 +1,3 @@
-// pages/subscribe.js
-
 import React from 'react';
 import Layout from '../components/Layout'; // Ensure the import path is correct
 import styles from '../styles/Subscribe.module.css';
@@ -23,7 +21,7 @@ const Subscribe = () => {
           </button>
         </div>
         <div className={styles.plan}>
-          <img src="/Bag.svg" alt="Recycling Bag" className={styles.planImage} />
+          <img src="/Bag2.svg" alt="Recycling Bag" className={styles.planImage} />
           <h2 className={styles.price}>Tri-Weekly Treasures - $7.99</h2>
           <p className={styles.description}>
             Enjoy premium features with our best value plan. Three weekly pickups + 12 bags monthly.
