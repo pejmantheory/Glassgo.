@@ -12,7 +12,7 @@ export default function Home() {
         <main className={styles.main}>
           <h1 className={styles.title}>GlassGo.</h1>
           <p className={styles.description}>
-            Choose your glass bottle pick up plan and help us keep the planet clean.
+            Choose your glass bottle pick-up plan and help us keep the planet clean.
           </p>
 
           <section className={styles.plans}>
