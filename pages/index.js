@@ -18,10 +18,10 @@ export default function Home() {
           <section className={styles.plans}>
             <Link href="/subscribe" passHref>
               <article className={styles.card} role="button" tabIndex="0">
-                <h2>Pick Twice Weekly - $5.99</h2>
-                <p>Includes 8 GlassGo. bags</p>
+                <h2>Pick Twice Weekly - <span className={styles.price}>$5.99</span></h2>
                 <p>Twice a week pickup</p>
-                <div className={styles.svgContainer} style={{ display: 'none' }}>
+                <p>Includes 8 GlassGo. bags</p>
+                <div className={styles.svgContainer}>
                   <img src="/Bag.svg" alt="Bag Icon" />
                 </div>
                 <div className={styles.button}>Subscribe</div>
@@ -30,10 +30,10 @@ export default function Home() {
 
             <Link href="/subscribe" passHref>
               <article className={styles.card} role="button" tabIndex="0">
-                <h2>Tri-Weekly Treasures - $7.99</h2>
-                <p>Become a premium to enjoy three time weekly pick ups, Includes 12 Monthly GlassGo. bags</p>
+                <h2>Tri-Weekly Treasures - <span className={styles.price}>$7.99</span></h2>
                 <p>Three times a week pickup</p>
-                <div className={styles.svgContainer} style={{ display: 'none' }}>
+                <p>Enjoy three time weekly pick ups, Includes 12 Monthly GlassGo. bags</p>
+                <div className={styles.svgContainer}>
                   <img src="/Bag.svg" alt="Bag Icon" />
                 </div>
                 <div className={styles.button}>Subscribe</div>

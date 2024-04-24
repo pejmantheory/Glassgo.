@@ -25,14 +25,14 @@
   gap: -1rem;
   width: 100%;
   max-width: 300px;
-  padding: 1rem;
+  padding: 1.2rem;
   /* Reduced padding within each plan box */
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .planImage {
   height: 110px;
-  margin-bottom: -1px;
+  margin-bottom: -11px;
 }
 
 .price {
@@ -61,8 +61,8 @@
   cursor: pointer;
   transition: background-color 0.3s, transform 0.3s;
   width: 50%;
-  max-width: 210px;
-  margin-top: 0.5rem;
+  max-width: 208px;
+  margin-top: 0.1rem;
   /* Reduced space above the button */
   align-self: center;
 }

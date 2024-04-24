@@ -2,12 +2,12 @@
 
 .footer {
   width: 100%;
-  padding: 10px 0px; /* Further reduced vertical padding */
+  padding: 1px 0px; /* Further reduced vertical padding */
   background-color: #ffffff;
   color: #080101;
   text-align: center;
   position: fixed;
   bottom: 0;
   left: 0;
-  font-size: 14px; /* Optionally reduced font size if there is still too much space */
+  font-size: 12px; /* Optionally reduced font size if there is still too much space */
 }

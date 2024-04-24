@@ -1,5 +1,3 @@
-/* styles/Header.module.css */
-
 .header {
   background: #fdfdfd;
   padding: 0px 0;
@@ -23,11 +21,11 @@
 
 .logo {
   cursor: pointer;
-  height: 89px;
-  /* Adjust the logo size as needed */
+  height: 91px;
   transition: opacity 0.3s ease;
-  /* Subtle fade effect for interactive states */
+  border-radius: 6px; /* Rounds the edges of the logo */
 }
+
 
 .logo:hover,
 .logo:focus {
@@ -47,9 +45,8 @@
   position: absolute;
   right: 20px;
   /* Position to the right */
-  top: 50%;
-  transform: translateY(-50%);
-  /* Center vertically */
+  top: 20%;
+  transform: translateY(-40%);
 }
 
 .nav-link {
