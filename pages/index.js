@@ -1,5 +1,3 @@
-// pages/index.js
-
 import React from 'react';
 import Link from 'next/link';
 import Layout from '../components/Layout';
@@ -34,7 +32,7 @@ export default function Home() {
                 <p>Three times a week pickup</p>
                 <p>Enjoy three time weekly pick ups, Includes 12 Monthly GlassGo. bags</p>
                 <div className={styles.svgContainer}>
-                  <img src="/Bag.svg" alt="Bag Icon" />
+                  <img src="/Bag2.svg" alt="Bag Icon" />
                 </div>
                 <div className={styles.button}>Subscribe</div>
               </article>
