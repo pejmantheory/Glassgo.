@@ -1,30 +1,42 @@
+
+# GlassGo README
+Welcome to the GitHub repository for GlassGo, a web application designed to help you manage your glass bottle recycling more efficiently. By subscribing to one of our pick-up plans, you can contribute to keeping our planet clean while enjoying the convenience of regular glass bottle collections.
+
+# Features
+Responsive Design: Built using React and Next.js, GlassGo offers a responsive design that works smoothly across all devices.
+Subscription Plans: Choose from multiple subscription plans tailored to fit different needs and schedules.
+Accessibility Features: We've ensured that our web application is accessible, with all interactive elements reachable via keyboard and screen readers.
+Installation
+To get started with GlassGo, you'll need to have Node.js installed on your machine. Follow these steps to run the application locally:
+
+Clone the Repository: Clone this repository to your local machine using the following command:
+bash
+Copy code
+git clone https://github.com/yourusername/glassgo.git
+Install Dependencies: Navigate to the cloned directory and install the necessary dependencies:
+bash
+Copy code
+cd glassgo
+npm install
+Run the Application: Start the development server:
+bash
+Copy code
+npm run dev
+This command runs the app in development mode. Open http://localhost:3000 to view it in your browser.
+Usage
+Once the application is running, you can interact with the UI to choose your desired glass bottle pick-up plan. Each plan offers different frequencies and perks, detailed on the main page. Click 'Subscribe' on the plan that suits your needs to proceed.
+
+# Contributing
+Interested in contributing to GlassGo? We welcome contributions in the form of pull requests, bug reports, and suggestions for improvements. Please refer to the CONTRIBUTING.md file for more details on how to contribute.
+
+# License
+GlassGo is released under the MIT License. See the LICENSE.md file for more details.
+
+# Acknowledgments
+Thanks to all contributors who have helped in shaping GlassGo into what it is today.
+Special thanks to the environmental organizations that inspired us to take action towards a cleaner planet.
+Explore the application, choose your plan, and start making a difference today! 🌍
+
 # Next + Netlify Starter
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/46648482-644c-4c80-bafb-872057e51b6b/deploy-status)](https://app.netlify.com/sites/next-dev-starter/deploys)
-
-This image automatically updates to reflect the current state of your latest production deploy. To create a status badge for a deployed branch, add the `?branch=` query parameter to the badge URL.
-
-This is a [Next.js](https://nextjs.org/) v14 project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and set up to be instantly deployed to [Netlify](https://url.netlify.com/SyTBPVamO)!
-
-This project is a very minimal starter that includes 2 sample components, a global stylesheet, a `netlify.toml` for deployment, and a `jsconfig.json` for setting up absolute imports and aliases. With Netlify, you'll have access to features like Preview Mode, server-side rendering/incremental static regeneration via Netlify Functions, and internationalized routing on deploy automatically.
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/next-netlify-starter&utm_source=github&utm_medium=nextstarter-cs&utm_campaign=devex-cs)
-
-(If you click this button, it will create a new repo for you that looks exactly like this one, and sets that repo up immediately for deployment on Netlify)
-
-## Table of Contents:
-
-- [Getting Started](#getting-started)
-- [Installation options](#installation-options)
-- [Testing](#testing)
-  - [Included Default Testing](#included-default-testing)
-  - [Removing Renovate](#removing-renovate)
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
