@@ -11,7 +11,7 @@ To get started with GlassGo, you'll need to have Node.js installed on your machi
 Clone the Repository: Clone this repository to your local machine using the following command:
 bash
 Copy code
-git clone https://github.com/yourusername/glassgo.git
+git clone [https://github.com/yourusername/glassgo.git](https://github.com/pejmantheory/GlassGo..git)
 Install Dependencies: Navigate to the cloned directory and install the necessary dependencies:
 bash
 Copy code
@@ -21,7 +21,7 @@ Run the Application: Start the development server:
 bash
 Copy code
 npm run dev
-This command runs the app in development mode. Open http://localhost:3000 to view it in your browser.
+This command runs the app in development mode.
 Usage
 Once the application is running, you can interact with the UI to choose your desired glass bottle pick-up plan. Each plan offers different frequencies and perks, detailed on the main page. Click 'Subscribe' on the plan that suits your needs to proceed.
 
