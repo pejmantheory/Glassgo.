@@ -12,7 +12,7 @@ To get started with GlassGo, you'll need to have Node.js installed on your machi
 * Clone the Repository: Clone this repository to your local machine using the following command:
 bash
 Copy code
-git clone https://github.com/pejmantheory/GlassGo..git
+git clone https://github.com/pejmantheory/GlassGo.git
 Install Dependencies: Navigate to the cloned directory and install the necessary dependencies:
 bash
 Copy code
