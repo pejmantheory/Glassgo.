@@ -30,7 +30,7 @@ Once the application is running, you can interact with the UI to choose your des
 Interested in contributing to GlassGo? We welcome contributions in the form of pull requests, bug reports, and suggestions for improvements. Please refer to the CONTRIBUTING.md file for more details on how to contribute.
 
 # License
-GlassGo is released under the MIT License. See the LICENSE.md file for more details.
+GlassGo. is released under the MIT License. See the LICENSE.md file for more details.
 
 # Acknowledgments
 Thanks to all contributors who have helped in shaping GlassGo into what it is today.
