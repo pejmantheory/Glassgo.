@@ -1,4 +1,4 @@
-# GlassGo
+# GlassGo.
 Welcome to the repository for [Glassgo](https://glassgo.io)
 , a web application designed to help you manage your glass bottle recycling more efficiently. By subscribing to one of our pick-up plans, you can contribute to keeping our planet clean while enjoying the convenience of regular glass bottle collections.
 
