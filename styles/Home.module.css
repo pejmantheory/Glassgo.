@@ -167,7 +167,6 @@
   z-index: 2;
 }
 
-/* Responsive design for mobile devices */
 @media (max-width: 600px) {
   .header {
     padding: 1rem 0; /* Slightly increased padding for better spacing */
@@ -195,7 +194,7 @@
     width: 100%; /* Ensure it takes the full width */
     max-width: 90%; /* Reduced width for mobile */
     margin: 0 auto; /* Center the plans container */
-    margin-bottom: 4rem; /* Added bottom margin to create space between the last card and the footer */
+    margin-bottom: 5rem; /* Added bottom margin to create space between the last card and the footer */
   }
 
   .card {
@@ -222,12 +221,13 @@
 
   .svgImage {
     width: 100%; /* Adjusted to fit smaller container */
-    height:190px;
+    height: 190px;
   }
 
   .footer {
-    padding: 2rem 0; /* Increased padding for more room on the bottom */
-    margin-top: 2rem; /* Add top margin for spacing */
+    padding: 1rem 0; /* Adjust padding as needed */
     text-align: center; /* Center align footer text */
+    background-color: #f4f4f4;
+    margin-top: 2rem; /* Add top margin for spacing */
   }
 }
