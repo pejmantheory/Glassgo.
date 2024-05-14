@@ -9,7 +9,7 @@ const Subscribe = () => {
         <h1 className={styles.title}>Recycle more, hassle less</h1>
         <div className={styles.plan}>
           <img src="/Bag.svg" alt="Recycling Bag" className={styles.planImage} />
-          <h2 className={styles.price}>Pick Twice Weekly - $5.99 <span className={styles.smallText}>per month</span></h2>
+          <h2 className={styles.price}>Pick Twice Weekly - $5.99 <span className={styles.smallText}>/month</span></h2>
           <p className={styles.description}>
             Twice-weekly doorstep bottle pickup + 8 monthly bags for effortless recycling with Glassgo.
           </p>
@@ -22,7 +22,7 @@ const Subscribe = () => {
         </div>
         <div className={styles.plan}>
           <img src="/Bag2.svg" alt="Recycling Bag" className={styles.planImage} />
-          <h2 className={styles.price}>Tri-Weekly Treasures - $7.99 <span className={styles.smallText}>per month</span></h2>
+          <h2 className={styles.price}>Tri-Weekly Treasures - $7.99 <span className={styles.smallText}>/month</span></h2>
           <p className={styles.description}>
             Enjoy premium features with our best value plan. Three weekly pickups + 12 bags monthly.
           </p>
