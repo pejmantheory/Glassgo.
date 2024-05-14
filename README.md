@@ -1,4 +1,4 @@
-# GlassGo
+# Glassgo.
 
 <img width="720" alt="Screenshot 2024-05-14 at 3 27 09 AM" src="https://github.com/pejmantheory/GlassGo/assets/81389644/f20a7f45-7b9f-4177-9063-5c8e1a545904">
 
