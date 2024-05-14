@@ -31,7 +31,8 @@ This command runs the app in development mode.
 Once the application is running, you can interact with the UI to choose your desired glass bottle pick-up plan. Each plan offers different frequencies and perks, detailed on the main page. Click 'Subscribe' on the plan that suits your needs to proceed.
 
 # Contributing
-Interested in contributing to GlassGo? We welcome contributions in the form of pull requests, bug reports, and suggestions for improvements. Please refer to the CONTRIBUTING.md file for more details on how to contribute.
+Interested in contributing to GlassGo? We welcome contributions in the form of pull requests, bug reports, and suggestions for improvements. Please refer to the [CONTRIBUTING.md](https://github.com/pejmantheory/Glassgo/blob/203d69e82e54d265821bfb81ea3136194d95b637/CONTRIBUTING.md) file for more details on how to contribute.
+
 
 # License
 GlassGo is released under the MIT License. See the [LICENSE](./LICENSE.md) file for more details.
