@@ -3,7 +3,7 @@
 <img width="720" alt="Screenshot 2024-05-14 at 3 27 09 AM" src="https://github.com/pejmantheory/GlassGo/assets/81389644/f20a7f45-7b9f-4177-9063-5c8e1a545904">
 
 
-Welcome to the repository for [Glassgo](https://glassgo.io)
+Welcome to the repository for [Glassgo.](https://glassgo.io)
 , a web application designed to help you manage your glass bottle recycling more efficiently. By subscribing to one of our pick-up plans, you can contribute to keeping our planet clean while enjoying the convenience of regular glass bottle collections.
 
 # Features
