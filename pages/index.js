@@ -18,7 +18,7 @@ export default function Home() {
               <article className={styles.card} role="button" tabIndex="0">
                 <h2>Pick Twice Weekly - <span className={styles.price}>$5.99</span></h2>
                 <p>Twice a week pickup</p>
-                <p>Includes 8 GlassGo. bags</p>
+                <p>Includes 8 Glassgo. bags</p>
                 <div className={styles.svgContainer}>
                   <img src="/Bag.svg" alt="Bag Icon" />
                 </div>
