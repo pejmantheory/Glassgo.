@@ -127,8 +127,8 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(0);
-  width: 200px; /* Adjusted size to be larger */
-  height: 200px; /* Adjusted size to be larger */
+  width: 190px; /* Adjusted size to be larger */
+  height: 190px; /* Adjusted size to be larger */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -142,7 +142,7 @@
   width: 110%; /* Adjusted to make the image larger */
   height: auto;
   object-fit: contain;
-  padding: 5px;
+  padding: 2px;
   border-radius: 5px;
   box-shadow: none; /* Remove shadow */
 }
@@ -215,13 +215,14 @@
   }
 
   .svgContainer {
-    width: 120px; /* Adjusted SVG size for mobile */
+    width: 130px; /* Adjusted SVG size for mobile */
     height: 120px; /* Adjusted SVG size for mobile */
     margin-bottom: 1rem; /* Add bottom margin for spacing */
   }
 
   .svgImage {
     width: 100%; /* Adjusted to fit smaller container */
+    height:190px;
   }
 
   .footer {
