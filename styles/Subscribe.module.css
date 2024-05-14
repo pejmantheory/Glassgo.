@@ -42,6 +42,10 @@
   text-align: center;
 }
 
+.smallText {
+  font-size: 0.8rem; /* Adjust this value to make the text smaller */
+}
+
 .description {
   font-size: 1rem;
   color: #373737;
@@ -71,7 +75,6 @@
   transform: scale(1.04);
   /* Slightly reduced transform scale for subtler effect */
 }
-
 
 @media (min-width: 769px) {
   .plan {
