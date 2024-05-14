@@ -4,7 +4,7 @@ import styles from '../styles/Footer.module.css';  // Ensure the CSS module is c
 export default function Footer() {
     return (
         <footer className={styles.footer}>
-            <p>© 2024 GlassGo LLC</p>
+            <p>© 2024 Glassgo LLC</p>
         </footer>
     );
 }
