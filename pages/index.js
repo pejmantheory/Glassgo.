@@ -8,7 +8,7 @@ export default function Home() {
     <Layout isHomepage={true}>
       <div className={styles.container}>
         <main className={styles.main}>
-          <h1 className={styles.title}>GlassGo.</h1>
+          <h1 className={styles.title}>Glassgo.</h1>
           <p className={styles.description}>
             Choose your glass bottle pick-up plan and help us keep the planet clean.
           </p>
@@ -30,7 +30,7 @@ export default function Home() {
               <article className={styles.card} role="button" tabIndex="0">
                 <h2>Tri-Weekly Treasures - <span className={styles.price}>$7.99</span></h2>
                 <p>Three times a week pickup</p>
-                <p>Enjoy three time weekly pick ups, Includes 12 Monthly GlassGo. bags</p>
+                <p>Enjoy three time weekly pick ups, Includes 12 Monthly Glassgo. bags</p>
                 <div className={styles.svgContainer}>
                   <img src="/Bag2.svg" alt="Bag Icon" />
                 </div>
