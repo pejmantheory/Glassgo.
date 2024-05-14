@@ -16,11 +16,11 @@ export default function Home() {
           <section className={styles.plans}>
             <Link href="/subscribe" passHref>
               <article className={styles.card} role="button" tabIndex="0">
-                <h2>Pick Twice Weekly - <span className={styles.price}>$5.99 <span className={styles.smallText}>per month</span></span></h2>
+                <h2>Pick Twice Weekly - <span className={styles.price}>$5.99 per month</span></h2>
                 <p>Twice a week pickup</p>
                 <p>Includes 8 Glassgo. bags</p>
                 <div className={styles.svgContainer}>
-                  <img src="/Bag.svg" alt="Bag Icon" />
+                  <img className={styles.svgImage} src="/Bag.svg" alt="Bag Icon" />
                 </div>
                 <div className={styles.button}>Subscribe</div>
               </article>
@@ -32,7 +32,7 @@ export default function Home() {
                 <p>Three times a week pickup</p>
                 <p>Enjoy three time weekly pick ups, Includes 12 Monthly Glassgo. bags</p>
                 <div className={styles.svgContainer}>
-                  <img src="/Bag2.svg" alt="Bag Icon" />
+                  <img className={styles.svgImage} src="/Bag2.svg" alt="Bag Icon" />
                 </div>
                 <div className={styles.button}>Subscribe</div>
               </article>
