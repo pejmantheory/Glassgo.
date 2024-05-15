@@ -1,18 +1,18 @@
 .layout {
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Ensures the layout fills at least the entire height of the viewport */
+    min-height: 100vh; 
     position: relative;
 }
 
 .mainContent {
     flex: 1;
-    overflow-y: auto; /* Makes only the main content scrollable */
+    overflow-y: auto; 
 }
 
 .footerWrapper {
-    flex-shrink: 0; /* Prevents the footer from shrinking */
-    width: 100%; /* Ensures footer extends full width */
+    flex-shrink: 0; 
+    width: 100%; 
     position: sticky;
-    bottom: 0; /* Keeps footer at the bottom */
+    bottom: 0; 
 }

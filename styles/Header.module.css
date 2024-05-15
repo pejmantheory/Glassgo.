@@ -3,27 +3,21 @@
   padding: 0px 0;
   background-color: #f4f4f4;
   text-align: center;
-  /* Center the content horizontally */
   position: relative;
-  /* Set position for potential absolute elements inside */
   display: flex;
-  /* Use flexbox for centering and positioning */
   justify-content: center;
-  /* Center content horizontally */
   align-items: center;
-  /* Center content vertically */
 }
 
 .homepageHeader {
   background-color: #ffffff;
-  /* White background for homepage header */
 }
 
 .logo {
   cursor: pointer;
   height: 91px;
   transition: opacity 0.3s ease;
-  border-radius: 6px; /* Rounds the edges of the logo */
+  border-radius: 6px;
 }
 
 

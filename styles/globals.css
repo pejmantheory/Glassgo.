@@ -1,22 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
-/* styles/globals.css */
 :root {
-  --main-color: #8FFF00; /* Lime green for brand accent */
-  --text-color: #333; /* Dark grey for text */
-  --background-color: #fff; /* White for clean background */
-  --link-color: #0000EE; /* Default blue for links */
-  --link-hover-color: #8FFF00; /* Lime green for hover state */
+  --main-color: #8FFF00; 
+  --text-color: #333; 
+  --background-color: #fff; 
+  --link-color: #0000EE; 
+  --link-hover-color: #8FFF00; 
 }
 
 html, body {
   padding: 0;
   margin: 0;
   width: 100%;
-  height: 100%; /* Ensures that html and body take full height */
-  overflow-x: hidden; /* Prevents horizontal scrolling */
+  height: 100%; 
+  overflow-x: hidden; 
   position: relative;
-  font-family: 'Montserrat', sans-serif; /* Set Montserrat as the default font */
+  font-family: 'Montserrat', sans-serif; 
 }
 
 a {

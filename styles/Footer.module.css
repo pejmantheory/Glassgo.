@@ -1,14 +1,14 @@
-/* styles/Footer.module.css */
-
 .footer {
   width: 100%;
-  padding: 0rem 0; /* Ensure adequate padding */
+  padding: 0rem 0; 
   text-align: center;
-  background-color: #ffffff; /* Consistent background */
-  position: fixed; /* Keeps footer at the bottom */
-  bottom: 0; /* Align footer at the bottom */
-  left: 0; /* Align footer to the left edge */
-  z-index: 1000; /* High z-index to ensure it stays on top */
-  font-size: 12px; /* Smaller text size for the footer */
+  background-color: #ffffff; 
+  position: fixed; 
+  bottom: 0; 
+  left: 0; 
+  z-index: 1000; 
+  font-size: 12px; 
+  font-family: 'Helvetica', 'Arial', sans-serif; 
 }
+
 

@@ -1,14 +1,12 @@
-/* Header styling */
 .header {
   width: 100%;
   display: flex;
   justify-content: center;
-  padding: 0.5rem 0; /* Reduced padding */
+  padding: 0.5rem 0;
 }
 
-/* Main content styling */
 .main {
-  padding: 0; /* Removed padding to bring content closer */
+  padding: 0;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -17,106 +15,75 @@
   text-align: center;
 }
 
-/* Title styling */
 .title {
-  margin: 1rem 0 0; /* Adjusted margin to lower the title slightly */
+  margin: 1rem 0;
   line-height: 1;
-  font-size: 2rem; /* Adjust font size if necessary */
+  font-size: 2rem;
   text-align: center;
-  color: #000; /* Change to black */
+  color: #000;
 }
 
-/* Logo styling */
 .logo {
-  width: 150px; /* Adjust the logo size if needed */
+  width: 150px;
   height: auto;
-  border-radius: 15px; /* Rounded corners */
+  border-radius: 15px;
 }
 
-/* Main content styling - Appears to be duplicated, consider removing or merging with the above .main styling */
-.main {
-  padding: 0.0rem 0; /* Adjusted padding to reduce space */
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-/* Title styling - This appears to be a duplicate and could be merged with the above .title styling */
-.title {
-  margin: 1rem 0 0; /* Added top margin to lower the title */
-  line-height: 1;
-  font-size: 1.6rem;
-  text-align: center;
-  color: #000; /* Change to black */
-}
-
-/* Description styling */
 .description {
   margin: 1rem 0;
   line-height: 1.5;
-  font-size: 1.2rem; /* Adjusted font size */
+  font-size: 1.2rem;
   text-align: center;
-  color: #000; /* Change to black */
-  max-width: 400px; /* Set a maximum width to control the line wrapping */
-  width: 100%; /* Ensure it takes the full width within the max-width */
+  color: #000;
+  max-width: 400px;
+  width: 100%;
 }
 
-/* Plans container styling */
 .plans {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 2rem;
   width: 100%;
-  max-width: 400px; /* Limit width for centering */
+  max-width: 400px;
 }
 
-/* Card styling */
 .card {
   width: 100%;
   padding: 1.5rem;
   text-align: left;
-  color: #000; /* Change to black */
-  text-decoration: none;
+  color: #000;
   background: white;
-  border: 2px solid #8fff00; /* Green border */
+  border: 2px solid #8fff00;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   cursor: pointer;
   position: relative;
-  z-index: 1; /* Ensure the card is above the SVG */
+  z-index: 1;
 }
 
-/* Card hover effect */
 .card:hover {
   transform: scale(1.05);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-/* Highlighted card border color */
 .highlighted {
-  border-color: #8fff00; /* Highlighted border color */
+  border-color: #8fff00;
 }
 
-/* Price styling */
 .price {
   font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 1rem;
-  color: #000; /* Change to black */
+  color: #000;
 }
 
-/* Small text styling for 'per month' */
 .smallText {
-  font-size: 0.75rem; /* Smaller font size for 'per month' */
-  display: inline; /* Ensures it stays in line with the price */
+  font-size: 0.75rem;
+  display: inline;
 }
 
-/* Subscribe button styling */
 .subscribe {
   font-size: 1rem;
   color: #8fff00;
@@ -124,33 +91,30 @@
   margin-top: 1rem;
 }
 
-/* SVG container styling */
 .svgContainer {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(0);
-  width: 190px; /* Adjusted size to be larger */
-  height: 190px; /* Adjusted size to be larger */
+  width: 190px;
+  height: 190px;
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 0; /* Ensure the SVG is behind the card */
+  z-index: 0;
   transition: transform 0.3s ease;
-  pointer-events: none; /* Disable pointer events on SVG */
+  pointer-events: none;
 }
 
-/* SVG image styling */
 .svgImage {
-  width: 110%; /* Adjusted to make the image larger */
+  width: 110%;
   height: auto;
   object-fit: contain;
   padding: 2px;
   border-radius: 5px;
-  box-shadow: none; /* Remove shadow */
+  box-shadow: none;
 }
 
-/* Footer styling */
 .footer {
   width: 100%;
   padding: 1rem 0;
@@ -161,83 +125,65 @@
 
 .footer p {
   margin: 0;
-  color: #000; /* Change to black */
-}
-
-
-.footer p {
-  margin: 0;
-  color: #000; /* Change to black */
-
-}
-
-/* Specific styling for highlighted state */
-.card:hover .svgContainer {
-  transform: translate(-50%, -50%) scale(1.5); /* Adjust scale as needed */
-  z-index: 2;
+  color: #000;
 }
 
 @media (max-width: 600px) {
   .header {
-    padding: 1rem 0; /* Slightly increased padding for better spacing */
+    padding: 1rem 0;
   }
 
   .logo {
-    width: 80px; /* Smaller logo size for mobile */
-    height: auto; /* Maintain aspect ratio */
+    width: 80px;
+    height: auto;
   }
 
   .title {
-    font-size: 1.5rem; /* Adjusted title size for better readability */
-    margin-top: 0.8rem; /* Add top margin for spacing */
-    margin-bottom: 0.5rem; /* Add bottom margin for spacing */
+    font-size: 1.5rem;
+    margin-top: 0.8rem;
+    margin-bottom: 0.5rem;
   }
 
   .description {
-    font-size: 1.1rem; /* Smaller description size for mobile */
-    max-width: 90%; /* Ensure description width is responsive */
-    margin: 0 auto 1rem; /* Center the description text and add bottom margin */
+    font-size: 1.1rem;
+    max-width: 90%;
+    margin: 0 auto 1rem;
   }
 
   .plans {
-    gap: 1.5rem; /* Adjusted gap for better spacing */
-    width: 100%; /* Ensure it takes the full width */
-    max-width: 90%; /* Reduced width for mobile */
-    margin: 0 auto; /* Center the plans container */
-    margin-bottom: 5rem; /* Added bottom margin to create space between the last card and the footer */
+    gap: 1.5rem;
+    width: 100%;
+    max-width: 90%;
+    margin: 0 auto;
+    margin-bottom: 5rem;
   }
 
   .card {
-    padding: 1rem; /* Adjusted padding for better spacing */
-    width: 100%; /* Ensure the card takes full width */
-    box-sizing: border-box; /* Include padding and border in the element's total width and height */
-    border-radius: 10px; /* Maintain consistent border radius */
+    padding: 1rem;
+    box-sizing: border-box;
+    border-radius: 10px;
   }
 
   .price {
-    font-size: 1.1rem; /* Smaller price text size for mobile */
+    font-size: 1.1rem;
   }
 
   .subscribe {
-    font-size: 0.9rem; /* Adjusted subscribe button text size */
-    margin-top: 0.5rem; /* Add top margin for spacing */
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
   }
 
   .svgContainer {
-    width: 130px; /* Adjusted SVG size for mobile */
-    height: 120px; /* Adjusted SVG size for mobile */
-    margin-bottom: 1rem; /* Add bottom margin for spacing */
+    width: 130px;
+    height: 120px;
+    margin-bottom: 1rem;
   }
 
   .svgImage {
-    width: 100%; /* Adjusted to fit smaller container */
     height: 190px;
   }
 
   .footer {
-    padding: 1rem 0; /* Adjust padding as needed */
-    text-align: center; /* Center align footer text */
-    background-color: #f4f4f4;
-    margin-top: 2rem; /* Add top margin for spacing */
+    margin-top: 2rem;
   }
 }
