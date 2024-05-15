@@ -38,7 +38,7 @@ Interested in contributing to Glassgo? We welcome contributions in the form of p
 GlassGo is released under the MIT License. See the [LICENSE](./LICENSE.md) file for more details.
 
 # Acknowledgments
-Special thanks to the environmental organizations that helped us to take action towards a cleaner planet.
+Special thanks to the Washington State environmental organizations that helped us to take action towards a cleaner planet.
 Explore the application, choose your plan, and start making a difference today! 🌍
 
 # Next + Netlify Starter
