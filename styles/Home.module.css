@@ -1,3 +1,5 @@
+/* Home.module.css */
+
 .header {
   width: 100%;
   display: flex;
@@ -63,15 +65,20 @@
   z-index: 1;
 }
 
-.card:hover {
+.card:hover,
+.card:active {
   transform: scale(1.05);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover .svgContainer,
+.card:active .svgContainer {
+  transform: translate(-50%, -50%) scale(1);
 }
 
 .highlighted {
   border-color: #8fff00;
 }
-
 
 .smallText {
   font-size: 0.75rem;
@@ -174,7 +181,12 @@
   }
 
   .svgImage {
-    height: 190px;
+    width: 180%; /* Increase width */
+    height: auto;
+    object-fit: contain;
+    padding: 2px;
+    border-radius: 5px;
+    box-shadow: none;
   }
 
   .footer {
