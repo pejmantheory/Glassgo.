@@ -26,8 +26,6 @@
   color: #000; /* Change to black */
 }
 
-
-
 /* Logo styling */
 .logo {
   width: 150px; /* Adjust the logo size if needed */
@@ -35,7 +33,7 @@
   border-radius: 15px; /* Rounded corners */
 }
 
-/* Main content styling */
+/* Main content styling - Appears to be duplicated, consider removing or merging with the above .main styling */
 .main {
   padding: 0.0rem 0; /* Adjusted padding to reduce space */
   flex: 1;
@@ -46,7 +44,7 @@
   text-align: center;
 }
 
-/* Title styling */
+/* Title styling - This appears to be a duplicate and could be merged with the above .title styling */
 .title {
   margin: 1rem 0 0; /* Added top margin to lower the title */
   line-height: 1;
@@ -65,7 +63,6 @@
   max-width: 400px; /* Set a maximum width to control the line wrapping */
   width: 100%; /* Ensure it takes the full width within the max-width */
 }
-
 
 /* Plans container styling */
 .plans {
@@ -111,6 +108,12 @@
   font-weight: bold;
   margin-bottom: 1rem;
   color: #000; /* Change to black */
+}
+
+/* Small text styling for 'per month' */
+.smallText {
+  font-size: 0.75rem; /* Smaller font size for 'per month' */
+  display: inline; /* Ensures it stays in line with the price */
 }
 
 /* Subscribe button styling */
@@ -161,6 +164,13 @@
   color: #000; /* Change to black */
 }
 
+
+.footer p {
+  margin: 0;
+  color: #000; /* Change to black */
+
+}
+
 /* Specific styling for highlighted state */
 .card:hover .svgContainer {
   transform: translate(-50%, -50%) scale(1.5); /* Adjust scale as needed */
@@ -178,13 +188,13 @@
   }
 
   .title {
-    font-size: 1.8rem; /* Adjusted title size for better readability */
+    font-size: 1.5rem; /* Adjusted title size for better readability */
     margin-top: 0.8rem; /* Add top margin for spacing */
     margin-bottom: 0.5rem; /* Add bottom margin for spacing */
   }
 
   .description {
-    font-size: 1rem; /* Smaller description size for mobile */
+    font-size: 1.1rem; /* Smaller description size for mobile */
     max-width: 90%; /* Ensure description width is responsive */
     margin: 0 auto 1rem; /* Center the description text and add bottom margin */
   }
@@ -205,7 +215,7 @@
   }
 
   .price {
-    font-size: 1rem; /* Smaller price text size for mobile */
+    font-size: 1.1rem; /* Smaller price text size for mobile */
   }
 
   .subscribe {

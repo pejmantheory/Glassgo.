@@ -17,7 +17,7 @@ export default function Home() {
           <section className={homeStyles.plans}>
             <Link href="/subscribe" passHref>
               <article className={homeStyles.card} role="button" tabIndex="0">
-                <h2>Pick Twice Weekly - <span className={homeStyles.price}>$5.99 per month</span></h2>
+              <h2>Pick Twice Weekly - $5.99 <span className={homeStyles.smallText}>per month</span></h2>
                 <p>Twice a week pickup</p>
                 <p>Includes 8 Glassgo. bags</p>
                 <div className={homeStyles.svgContainer}>
@@ -29,7 +29,7 @@ export default function Home() {
 
             <Link href="/subscribe" passHref>
               <article className={homeStyles.card} role="button" tabIndex="0">
-                <h2>Tri-Weekly Treasures - <span className={homeStyles.price}>$7.99 <span className={homeStyles.smallText}>per month</span></span></h2>
+              <h2>Tri-Weekly Treasures - $7.99 <span className={homeStyles.smallText}>per month</span></h2>
                 <p>Three times a week pickup</p>
                 <p>Enjoy three time weekly pick ups, Includes 12 Monthly Glassgo. bags</p>
                 <div className={homeStyles.svgContainer}>
