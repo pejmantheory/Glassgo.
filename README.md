@@ -11,22 +11,20 @@ Welcome to the repository for [Glassgo.](https://glassgo.io)
 * Subscription Plans: Choose from multiple subscription plans tailored to fit different needs and schedules.
 Accessibility Features: We've ensured that our web application is accessible, with all interactive elements reachable via keyboard and screen readers.
 # Installation
-To get started with Glassgo, you'll need to have Node.js installed on your machine. Follow these steps to run the application locally:
+## To get started with Glassgo, you'll need to have Node.js installed on your machine. Follow these steps to run the application locally:
 
-* Clone the Repository: Clone this repository to your local machine using the following command:
-bash
-Copy code
-git clone https://github.com/pejmantheory/Glassgo.git
-Install Dependencies: Navigate to the cloned directory and install the necessary dependencies:
-bash
-Copy code
-cd glassgo
-npm install
-Run the Application: Start the development server:
-bash
-Copy code
-npm run dev
-This command runs the app in development mode.
+## Clone the Repository: Clone this repository to your local machine using the following command:
+
+`git clone https://github.com/pejmantheory/Glassgo.git`
+## Install Dependencies: Navigate to the cloned directory and install the necessary dependencies:
+
+`cd glassgo`
+
+`npm instal`
+### Start the development server:
+
+`npm run dev`
+
 # Usage
 Once the application is running, you can interact with the UI to choose your desired glass bottle pick-up plan. Each plan offers different frequencies and perks, detailed on the main page. Click 'Subscribe' on the plan that suits your needs to proceed.
 
