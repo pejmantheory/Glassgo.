@@ -33,13 +33,15 @@
 
 .description {
   margin: 1rem 0;
-  line-height: 1.5;
+  line-height: 1.7;
   font-size: 1.2rem;
   text-align: center;
   color: #000;
   max-width: 400px;
   width: 100%;
+  font-weight: semi-bold; 
 }
+
 
 .plans {
   display: flex;
@@ -81,7 +83,7 @@
 }
 
 .smallText {
-  font-size: 0.75rem;
+  font-size: 0.80rem;
   display: inline;
 }
 
@@ -146,7 +148,7 @@
   }
 
   .description {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     max-width: 90%;
     margin: 0 auto 1rem;
   }
