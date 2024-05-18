@@ -123,7 +123,7 @@
 @media (max-width: 768px) {
   /* Subscribe Button Styles for Smaller Screens */
   .subscribeButton {
-    width: 48%; /* Reduce width for mobile */
+    width: 51%; /* Reduce width for mobile */
   }
 }
 
