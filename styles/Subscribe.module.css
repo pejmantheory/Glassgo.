@@ -119,3 +119,11 @@
     width: 50%;
   }
 }
+
+@media (max-width: 768px) {
+  /* Subscribe Button Styles for Smaller Screens */
+  .subscribeButton {
+    width: 49%; /* Reduce width for mobile */
+  }
+}
+
