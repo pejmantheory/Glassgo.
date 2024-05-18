@@ -4,7 +4,26 @@ import Layout from '../components/Layout';
 import homeStyles from '../styles/Home.module.css';
 import footerStyles from '../styles/Footer.module.css';
 
-export default function Home() {
+const Home = () => {
+  const plans = [
+    {
+      title: "Pick Twice Weekly - $5.99",
+      description: "Twice a week pickup",
+      details: "Includes 8 Monthly Glassgo. bags",
+      imageSrc: "/Bag.svg",
+      altText: "Bag Icon",
+      price: "per month"
+    },
+    {
+      title: "Tri-Weekly Treasures - $7.99",
+      description: "Three times a week pickup",
+      details: "Enjoy three time weekly pick ups, Includes 12 Monthly Glassgo. bags",
+      imageSrc: "/Bag2.svg",
+      altText: "Bag Icon",
+      price: "per month"
+    }
+  ];
+
   return (
     <Layout isHomepage={true}>
       <div className={homeStyles.container}>
@@ -15,29 +34,19 @@ export default function Home() {
           </p>
 
           <section className={homeStyles.plans}>
-            <Link href="/subscribe" passHref>
-              <article className={homeStyles.card} role="button" tabIndex="0">
-                <h2>Pick Twice Weekly - $5.99 <span className={homeStyles.smallText}>per month</span></h2>
-                <p>Twice a week pickup</p>
-                <p>Includes 8 Monthly Glassgo. bags</p>
-                <div className={homeStyles.svgContainer}>
-                  <img className={homeStyles.svgImage} src="/Bag.svg" alt="Bag Icon" />
-                </div>
-                <div className={homeStyles.button}>Subscribe</div>
-              </article>
-            </Link>
-
-            <Link href="/subscribe" passHref>
-              <article className={homeStyles.card} role="button" tabIndex="0">
-                <h2>Tri-Weekly Treasures - $7.99 <span className={homeStyles.smallText}>per month</span></h2>
-                <p>Three times a week pickup</p>
-                <p>Enjoy three time weekly pick ups, Includes 12 Monthly Glassgo. bags</p>
-                <div className={homeStyles.svgContainer}>
-                  <img className={homeStyles.svgImage} src="/Bag2.svg" alt="Bag Icon" />
-                </div>
-                <div className={homeStyles.button}>Subscribe</div>
-              </article>
-            </Link>
+            {plans.map((plan, index) => (
+              <Link href="/subscribe" passHref key={index}>
+                <article className={homeStyles.card} role="button" tabIndex="0">
+                  <h2>{plan.title} <span className={homeStyles.smallText}>{plan.price}</span></h2>
+                  <p>{plan.description}</p>
+                  <p>{plan.details}</p>
+                  <div className={homeStyles.svgContainer}>
+                    <img className={homeStyles.svgImage} src={plan.imageSrc} alt={plan.altText} />
+                  </div>
+                  <div className={homeStyles.button}>Subscribe</div>
+                </article>
+              </Link>
+            ))}
           </section>
         </main>
       </div>
@@ -46,4 +55,6 @@ export default function Home() {
       </footer>
     </Layout>
   );
-}
+};
+
+export default Home;
