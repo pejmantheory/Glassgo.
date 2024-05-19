@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 24px;
+  gap: 0px;
   justify-content: flex-start;
   padding: 1rem 0; /* Adjust padding as needed */
   background-color: #f4f4f4; /* Set the background color to match the page background */
@@ -12,7 +12,7 @@
 .subscribeContainer .title {
   font-size: 1.6rem;
   color: #333;
-  margin-bottom: 0.22rem;
+  margin-bottom: 0.10rem;
   margin-top: 0.1rem;
   font-weight: 800;
   letter-spacing: 0.4px;
@@ -24,13 +24,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0.1rem;
+  gap: 0rem;
   width: 100%;
   max-width: 300px;
   padding: 1.7rem;
   background-color: #fff;
   border-radius: 8px;
-  margin-bottom: 1.2rem;
+  margin-bottom: 1.1rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
