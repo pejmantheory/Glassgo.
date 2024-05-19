@@ -2,7 +2,6 @@ import React from 'react';
 import Link from 'next/link';
 import Layout from '../components/Layout';
 import homeStyles from '../styles/Home.module.css';
-import footerStyles from '../styles/Footer.module.css';
 
 const Home = () => {
   const plans = [
@@ -50,9 +49,6 @@ const Home = () => {
           </section>
         </main>
       </div>
-      <footer className={footerStyles.footer}>
-        <p>© 2024 Glassgo LLC</p>
-      </footer>
     </Layout>
   );
 };

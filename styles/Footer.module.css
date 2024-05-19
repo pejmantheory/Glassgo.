@@ -1,14 +1,39 @@
 .footer {
   width: 100%;
-  padding: 0rem 0; 
-  text-align: center;
-  background-color: #ffffff; 
-  position: fixed; 
-  bottom: 0; 
-  left: 0; 
-  z-index: 1000; 
-  font-size: 13px; 
-  font-family: 'Helvetica', 'Arial', sans-serif; 
+  padding: 1.8rem 0 0.5rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ebeeed;
+  color: rgb(43, 43, 43);
 }
 
+.footer p {
+  margin: 0;
+  color: rgb(38, 38, 38); 
+  font-size: 1.1rem; 
+}
 
+.companyContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 1.2rem; 
+}
+
+.companyText {
+  margin: 0 0px; 
+  line-height: 1; 
+  vertical-align: middle;
+}
+
+.logo {
+  height: 28px; 
+  margin: 0 -2px; 
+  vertical-align: middle;
+  margin-bottom: 9px; 
+}
+
+.companyTextHigher {
+  margin-bottom: 4px; 
+}

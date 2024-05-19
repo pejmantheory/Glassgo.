@@ -1,4 +1,3 @@
-
 .header {
   width: 100%;
   display: flex;
@@ -14,6 +13,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin-bottom: 50px; /* Add bottom margin to ensure space between content and footer */
 }
 
 .title {
@@ -38,9 +38,8 @@
   color: #000;
   max-width: 400px;
   width: 100%;
-  font-weight: semi-bold; 
+  font-weight: semi-bold;
 }
-
 
 .plans {
   display: flex;
@@ -49,6 +48,7 @@
   gap: 2rem;
   width: 100%;
   max-width: 400px;
+  margin: 0 auto; /* Center align for smaller screens */
 }
 
 .card {
@@ -130,6 +130,14 @@
   color: #000;
 }
 
+/* Media queries for desktop version */
+@media (min-width: 1024px) {
+  .plans {
+    margin-left: 35%; /* Adjust this value to move containers slightly to the left */
+    margin-right: auto;
+  }
+}
+
 @media (max-width: 600px) {
   .header {
     padding: 1rem 0;
@@ -151,15 +159,14 @@
     max-width: 90%;
     margin: 0 auto 1rem;
     font-weight: 510;
-}
-
+  }
 
   .plans {
     gap: 1.3rem;
     width: 100%;
     max-width: 90%;
     margin: 0 auto;
-    margin-bottom: 5rem;
+    margin-bottom: 1rem; /* Increase bottom margin */
   }
 
   .card {
@@ -170,9 +177,8 @@
 
   .price {
     font-size: 1.1rem;
+    display: block; /* Ensure price appears on the next line */
   }
-
-
 
   .svgContainer {
     width: 130px;

@@ -4,9 +4,8 @@
   align-items: center;
   gap: 24px;
   justify-content: flex-start;
-  padding: 1rem 0 1rem;
-  background-color: #f4f4f4;
-  margin-bottom: 2rem; 
+  padding: 1rem 0; /* Adjust padding as needed */
+  background-color: #f4f4f4; /* Set the background color to match the page background */
 }
 
 /* Title Styles */
@@ -20,7 +19,6 @@
   text-align: center;
 }
 
-
 /* Plan Styles */
 .plan {
   display: flex;
@@ -32,6 +30,7 @@
   padding: 1.7rem;
   background-color: #fff;
   border-radius: 8px;
+  margin-bottom: 1.2rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -62,7 +61,6 @@
   color: #666;
 }
 
-
 .description {
   font-size: 1rem;
   color: #555;
@@ -71,7 +69,6 @@
   padding: 0 1rem;
   margin-bottom: 0.1rem;
 }
-
 
 .subscribeButton {
   background-color: #8FFF00;
@@ -100,7 +97,7 @@
 
   /* Title Styles for Larger Screens */
   .title {
-    font-size: 2.rem;
+    font-size: 2rem; /* Corrected syntax from 2.rem */
     margin-top: 2rem;
   }
 
@@ -121,9 +118,18 @@
 }
 
 @media (max-width: 768px) {
+  .subscribeContainer {
+    background-color: #f4f4f4; /* Ensure background color matches page background */
+    padding-bottom: 2; /* Adjust padding to remove extra space */
+  }
+
+  /* Increase the space for the second container */
+  .subscribeContainer .plan:nth-of-type(2) {
+    margin-bottom: 2rem; /* Add margin to increase space */
+  }
+
   /* Subscribe Button Styles for Smaller Screens */
   .subscribeButton {
     width: 51%; /* Reduce width for mobile */
   }
 }
-
