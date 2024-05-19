@@ -12,7 +12,7 @@
 .footer p {
   margin: 0;
   color: rgb(38, 38, 38); 
-  font-size: 1.1rem; 
+  font-size: 0.8rem; 
 }
 
 .companyContainer {
@@ -29,7 +29,7 @@
 
 .logo {
   height: 28px; 
-  margin: 0 -2px; 
+  margin: 0 -3px; 
   vertical-align: middle;
   margin-bottom: 9px; 
 }
