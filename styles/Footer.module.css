@@ -25,15 +25,17 @@
   margin: 0 0px; 
   line-height: 3; 
   vertical-align: middle;
+  font-size: 0.7em;
 }
 
 .logo {
-  height: 28px; 
+  height: 22px; 
   margin:  -2px; 
   vertical-align: middle;
   margin-bottom: 6px; 
 }
 
 .companyTextHigher {
-  margin-bottom: 3px; 
+  margin-bottom: 3px;
+  font-size: 0.7em; 
 }
