@@ -4,15 +4,15 @@
   align-items: center;
   gap: 0px;
   justify-content: flex-start;
-  padding: 1rem 0; /* Adjust padding as needed */
-  background-color: #f4f4f4; /* Set the background color to match the page background */
+  padding: 1rem 0; 
+  background-color: #f4f4f4; 
 }
 
-/* Title Styles */
+
 .subscribeContainer .title {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   color: #333;
-  margin-bottom: 0.10rem;
+  margin-bottom: 0.90rem;
   margin-top: 0.1rem;
   font-weight: 800;
   letter-spacing: 0.4px;
@@ -113,14 +113,14 @@
 
   /* Subscribe Button Styles for Larger Screens */
   .subscribeButton {
-    width: 50%;
+    width: 43%;
   }
 }
 
 @media (max-width: 768px) {
   .subscribeContainer {
     background-color: #f4f4f4; 
-    padding-bottom: 2; /* Adjust padding to remove extra space */
+    padding-bottom: 2; 
   }
 
   /* Increase the space for the second container */
@@ -128,7 +128,7 @@
     margin-bottom: 2rem; /* Add margin to increase space */
   }
 
-  /* Subscribe Button Styles for Smaller Screens */
+ 
   .subscribeButton {
     width: 51%; /* Reduce width for mobile */
   }

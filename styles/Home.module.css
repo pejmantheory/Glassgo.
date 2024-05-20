@@ -31,7 +31,7 @@
 }
 
 .description {
-  margin: 1rem 0;
+  margin: 0.1rem 0;
   line-height: 1.7;
   font-size: 1.2rem;
   text-align: center;
@@ -45,15 +45,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2rem;
+  gap: 1rem;
   width: 100%;
   max-width: 400px;
-  margin: 0 auto; /* Center align for smaller screens */
+  margin: 1.5rem auto;
 }
 
 .card {
   width: 100%;
-  padding: 1.5rem;
+  padding: 1.2rem;
   text-align: left;
   color: #000;
   background: white;
@@ -130,13 +130,13 @@
   color: #000;
 }
 
-/* Media queries for desktop version */
-@media (min-width: 1024px) {
+/* Desktop specific styles */
+@media (min-width: 768px) {
   .plans {
-    margin-left: 35%; /* Adjust this value to move containers slightly to the left */
-    margin-right: auto;
+    margin-left: 13.5rem; /* Adjust this value as needed */
   }
 }
+
 
 @media (max-width: 600px) {
   .header {
