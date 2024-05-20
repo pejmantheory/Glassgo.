@@ -6,7 +6,7 @@ import homeStyles from '../styles/Home.module.css';
 const Home = () => {
   const plans = [
     {
-      title: "Pick Twice Weekly - $5.99",
+      title: "Pick Twice Weekly - $19.99",
       description: "Twice a week pickup",
       details: "Includes 8 Monthly Glassgo. bags",
       imageSrc: "/Bag.svg",
@@ -14,7 +14,7 @@ const Home = () => {
       price: "per month"
     },
     {
-      title: "Tri-Weekly Treasures - $7.99",
+      title: "Tri-Weekly Treasures - $34.99",
       description: "Three times a week pickup",
       details: "Enjoy three time weekly pick ups, Includes 12 Monthly Glassgo. bags",
       imageSrc: "/Bag2.svg",
