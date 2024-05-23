@@ -136,7 +136,7 @@
     display: flex; /* Ensures the container uses flexbox */
     flex-direction: column; /* Adjust the flex direction as needed */
     margin-left: 0rem; 
-    margin-right: 1rem; /* Optional: Adjusts the right margin for balance */
+    margin-right: 2rem; /* Optional: Adjusts the right margin for balance */
     justify-content: center; /* Centers content vertically within the container */
     align-items: flex-start; /* Aligns items to the start of the flex container */
   }
