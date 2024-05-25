@@ -8,7 +8,7 @@ const Home = () => {
     {
       title: "Pick Twice Weekly - $19.99",
       description: "Twice a week pickup",
-      details: "Includes 8 Monthly Glassgo. bags",
+      details: "Includes 8 Monthly Glassgo. bags. Cancel anytime",
       imageSrc: "/Bag.svg",
       altText: "Bag Icon",
       price: "per month"
@@ -16,7 +16,7 @@ const Home = () => {
     {
       title: "Tri-Weekly Treasures - $34.99",
       description: "Three times a week pickup",
-      details: "Enjoy three time weekly pick ups, Includes 12 Monthly Glassgo. bags",
+      details: "Enjoy three time weekly pick ups, Includes 12 Monthly Glassgo. bags. Cancel anytime",
       imageSrc: "/Bag2.svg",
       altText: "Bag Icon",
       price: "per month"
