@@ -1,7 +1,8 @@
 {
-  "name": "next-netlify-starter",
+  "name": "glassgo",
   "version": "0.5.0",
   "private": true,
+  "description": "Glassgo is an innovative internet company providing subscription-based glass bottle pickup services from households to promote efficient recycling and reduce hassle.",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -14,5 +15,23 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "stripe": "^15.3.0"
-  }
+  },
+  "author": "Pejman Haghighatnia",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pejmantheory/Glassgo.git"
+  },
+  "homepage": "https://glassgo.io",
+  "bugs": {
+    "url": "https://github.com/pejmantheory/Glassgo/issues"
+  },
+  "keywords": [
+    "recycling",
+    "glass-bottle",
+    "pickup-service",
+    "subscription",
+    "nextjs",
+    "react"
+  ]
 }
