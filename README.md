@@ -15,12 +15,13 @@ Welcome to the repository for [Glassgo.](https://glassgo.io)
 * Subscription Plans: Choose from multiple subscription plans tailored to fit different needs and schedules.
 Accessibility Features: We've ensured that our web application is accessible, with all interactive elements reachable via keyboard and screen readers.
 # Installation
-## To get started with Glassgo, you'll need to have Node.js installed on your machine. Follow these steps to run the application locally:
+To get started with Glassgo, you'll need to have Node.js installed on your machine. Follow these steps to run the application locally:
 
-## Clone the Repository: Clone this repository to your local machine using the following command:
+Clone the Repository: Clone this repository to your local machine using the following command:
 
 `git clone https://github.com/pejmantheory/Glassgo.git`
-## Install Dependencies: Navigate to the cloned directory and install the necessary dependencies:
+# Install Dependencies: 
+Navigate to the cloned directory and install the necessary dependencies:
 
 `cd glassgo`
 
