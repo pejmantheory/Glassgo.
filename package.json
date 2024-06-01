@@ -7,14 +7,18 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export": "next build && next export"
+    "export": "next build && next export",
+    "check-updates": "ncu"
   },
   "dependencies": {
-    "@netlify/plugin-nextjs": "^5.1.2",
+    "@netlify/plugin-nextjs": "^5.3.2",
     "next": "^14.2.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "stripe": "^15.3.0"
+    "stripe": "^15.8.0"
+  },
+  "devDependencies": {
+    "npm-check-updates": "^16.14.20"
   },
   "author": "Pejman Haghighatnia",
   "license": "MIT",
