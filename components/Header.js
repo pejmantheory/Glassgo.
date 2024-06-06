@@ -1,5 +1,3 @@
-// components/Header.js
-
 import React from 'react';
 import Link from 'next/link';
 import headerStyles from '../styles/Header.module.css';
