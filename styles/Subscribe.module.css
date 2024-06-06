@@ -111,7 +111,7 @@
     font-size: 1.3rem;
   }
 
-  /* Subscribe Button Styles for Larger Screens */
+ 
   .subscribeButton {
     width: 43%;
   }
@@ -123,13 +123,13 @@
     padding-bottom: 2; 
   }
 
-  /* Increase the space for the second container */
+
   .subscribeContainer .plan:nth-of-type(2) {
-    margin-bottom: 2rem; /* Add margin to increase space */
+    margin-bottom: 2rem; 
   }
 
  
   .subscribeButton {
-    width: 51%; /* Reduce width for mobile */
+    width: 51%; 
   }
 }
