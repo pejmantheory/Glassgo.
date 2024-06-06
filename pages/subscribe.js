@@ -1,10 +1,10 @@
 import React from 'react';
-import Layout from '../components/Layout'; // Ensure the import path is correct
+import Layout from '../components/Layout'; 
 import styles from '../styles/Subscribe.module.css';
 
 const Subscribe = () => {
   return (
-    <Layout> {/* The isHomepage prop is not passed here, as it's not needed */}
+    <Layout> {}
       <div className={styles.subscribeContainer}>
         <h1 className={styles.title}>Recycle more, hassle less</h1>
         <div className={styles.plan}>
