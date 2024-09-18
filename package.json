@@ -12,13 +12,13 @@
   },
   "dependencies": {
     "@netlify/plugin-nextjs": "^5.7.1",
-    "next": "^14.2.8",
+    "next": "^14.2.12",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "stripe": "^16.10.0"
+    "stripe": "^16.11.0"
   },
   "devDependencies": {
-    "npm-check-updates": "^17.1.1"
+    "npm-check-updates": "^17.1.2"
   },
   "author": "Pejman Haghighatnia",
   "license": "MIT",
