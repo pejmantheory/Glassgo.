@@ -11,11 +11,11 @@
     "check-updates": "ncu"
   },
   "dependencies": {
-    "@netlify/plugin-nextjs": "^5.7.2",
-    "next": "^14.2.13",
+    "@netlify/plugin-nextjs": "^5.7.3",
+    "next": "^14.2.14",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "stripe": "^16.12.0"
+    "stripe": "^17.1.0"
   },
   "devDependencies": {
     "npm-check-updates": "^17.1.3"
