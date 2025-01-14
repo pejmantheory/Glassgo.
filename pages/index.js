@@ -34,8 +34,8 @@ const Home = () => {
 
           <section className={homeStyles.plans}>
             {plans.map((plan, index) => (
-              <Link href="/subscribe" passHref key={index}>
-                <article className={homeStyles.card} role="button" tabIndex="0">
+              <Link href="/subscribe" passHref key={plan.title}>
+                <button className={homeStyles.card} tabIndex="0">
                   <h2>{plan.title} <span className={homeStyles.smallText}>{plan.price}</span></h2>
                   <p>{plan.description}</p>
                   <p>{plan.details}</p>
@@ -43,7 +43,7 @@ const Home = () => {
                     <img className={homeStyles.svgImage} src={plan.imageSrc} alt={plan.altText} />
                   </div>
                   <div className={homeStyles.button}>Subscribe</div>
-                </article>
+                </button>
               </Link>
             ))}
           </section>
