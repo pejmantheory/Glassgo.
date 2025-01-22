@@ -11,14 +11,14 @@
     "check-updates": "ncu"
   },
   "dependencies": {
-    "@netlify/plugin-nextjs": "^5.7.1",
-    "next": "^14.2.12",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "stripe": "^16.11.0"
+    "@netlify/plugin-nextjs": "^5.9.3",
+    "next": "^15.1.5",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "stripe": "^17.5.0"
   },
   "devDependencies": {
-    "npm-check-updates": "^17.1.2"
+    "npm-check-updates": "^17.1.14"
   },
   "author": "Pejman Haghighatnia",
   "license": "MIT",
