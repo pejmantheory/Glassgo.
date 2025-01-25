@@ -11,8 +11,8 @@
     "check-updates": "ncu"
   },
   "dependencies": {
-    "@netlify/plugin-nextjs": "^5.9.3",
-    "next": "^15.1.5",
+    "@netlify/plugin-nextjs": "^5.9.4",
+    "next": "^15.1.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "stripe": "^17.5.0"
